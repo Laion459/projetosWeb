@@ -1,0 +1,30 @@
+
+input{
+	font-family: arial;
+	font-size: 1.5em;
+	color: rgb(32, 230, 111);
+	display: block;
+	margin-bottom: 10px;
+	border-color: rgb(154, 8, 199);
+	border-top-whidth: 7px;
+	padding-left: 15px; 
+}
+
+input[type="bottom"]{
+	backgraund-color: #555;
+	color: rgb(95, 145, 240);
+	margin: 20px;
+	padding: 5px;
+}
+
+
+input[name^="important_"]{
+	backgraund-color: rosybrown;
+}
+
+h1, h2{
+	font-family: arial;
+	
+	border-bottom-width: 3px;
+
+}

@@ -1,0 +1,104 @@
+/* Tema css */
+/* A */
+
+/*  */
+table{
+	border: 3px solid rgb(111, 3, 133);
+	font-size: 1em;
+	word-wrap: break-word;
+	width: 100%;
+}
+
+/*  */
+table td{
+	padding: 20px;
+}
+
+/*  */
+table th{
+	background-color: tomato;
+}
+
+/*  */
+table thead,th{
+	background-color: violet;
+	border-bottom-color: 3px solid rgb(255, 0, 0);
+}
+
+/*  */
+html{
+	font-family: cursive;
+	padding: 0em 2em;
+}
+
+form input,textarea, select{
+    display:block;
+    margin: 0 0 10px;
+    padding: 10px 10px;
+    width: 98%;
+}
+
+
+/* B */
+/* modifica input, textArea e select, tamaho fonte 1.5em, padding 5px e borda solida 1px cor escura */
+input, textarea, select{
+	/* Tamanho da fonte e definida em 1.5em */
+	font-size: 1.5em;
+	/*cor de fundo campo sendo preenchido em destaque */
+	padding: 5px;
+	/* aplica borda solida de 1px na cor escura */
+	border: 1px solid black ;
+}
+
+/* modifica os 'label' o texto fica em negrito */
+form label{
+	font-style: bold;
+}
+
+/* Campo que estiver sendo preenchido fica com cor de fundo em destaque */
+.input:focus {
+	/* aplica cor na borda */
+	outline: 3px solid rgb(0, 17, 253);
+	/* aplica cor no fundo */
+	background-color: rgb(4, 0, 255);
+}	
+form {
+	border: 11px solid;
+	color: rgb(162, 9, 162);
+	padding: 22px;
+}
+/* Destaca formulario sendo preenchido */
+form:focus-within {
+	/* aplica cor no fundo*/
+	background: rgb(5, 4, 5);
+	/* aplica cor na borda*/
+	color: rgb(250, 246, 8);
+}
+  
+
+
+
+
+/* Aplicar apenas nas tabelas!! ************ 
+
+td{
+	padding: 20px;
+}
+
+form {
+	background-color: rgb(190, 66, 184);
+	font-size: 15px;
+}
+.thead{
+	background-color: rgb(58, 226, 43);
+	 
+	border: bottom width 3px;
+}
+
+h1{
+	/*definimos a do fundo 
+    background-color: rgb(196, 24, 230);
+	/*definimos a do texto 
+    color: rgb(255, 255, 255);
+	font-family:cursive;
+} */

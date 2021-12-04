@@ -1,0 +1,126 @@
+<html lang="pt-BR" class> 
+
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <form action="" method="GET">
+
+            <label for="empresa_id">Empresa</label>:
+            <input name="empresa" id="empresa_id" type="text" maxlength="20"/>
+            <br/>
+
+            <input name="senha" type="password" />
+            <br/>
+
+            <input type="radio" name="cor_olhos" value="brown" /> Castanhos <br/>
+            <input type="radio" name="cor_olhos" value="green" /> Verdes <br/>
+            <input type="radio" name="cor_olhos" value="blue" /> Azuis <br/>
+            <br/>
+
+            <!--
+
+            <input type="checkbox" name="clima" value="vento" /> Vento <br/>
+
+            <input type="checkbox" name="clima" value="sol" /> Sol <br/>
+
+            <input type="checkbox" name="clima" value="chuva" /> Chuva <br/>
+
+            -->
+
+            <input type="checkbox" name="tem_vento" value="1" /> Vento <br/>
+
+            <input type="checkbox" name="tem_sol" value="1" /> Sol <br/>
+
+            <input type="checkbox" name="tem_chuva" value="1" /> Chuva </br>
+
+        </br>
+
+        <select name="campus" multiple="multiple" size="6">
+
+                <option value="C01">Sertão do Maruim</option>
+
+                <option value="C02">Kobrasol</option>
+
+                <option value="C03">Ilha</option>
+
+                <option value="C04">Itajai</option>
+
+        </select>
+
+        <br/>
+
+        <textarea name="comentario" rows="6" cols="40"></textarea>
+
+        <br/>
+
+            <input type="submit" value="Cadastrar Empresa" />
+
+        </form>
+
+        <!--    
+
+        Este é o meu código de demonstração
+
+        -->
+
+        <table border="1" align="center" width="80%">
+
+            <caption>Lista de Contatos Comerciais</caption>
+
+            <thead>
+
+                <tr>
+
+                    <th rowspan="2">Nome do contato</th>
+
+                    <th colspan="2">Empresa</th>
+
+                </tr>
+
+                <tr>   
+
+                    <th>Nome</th>
+
+                    <th>e-mail</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>Leonardo</td>
+
+                    <td>Eletros amestrados</td>
+
+                    <td>eletros.amestrados@mail.com</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Eduardo</td>
+
+                    <td>Empresa Y</td>
+
+                    <td>empresay@gmail.com</td>
+
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+
+                <tr>
+
+                    <td colspan="3">Quantidade de contatos: 2</td>
+
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

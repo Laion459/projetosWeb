@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Validar formulario</title> 
+        <meta charset="utf-8">
+        <!-- CSS -->  
+        <link rel="stylesheet" type="text/css" href="cssFormulario.css" media="screen" />
+        <!-- JavaScript-->  
+        <script src="arquivoJavaScript.js"></script>
+        
+    </head>
+
+    <body>
+
+        <div>
+        <h1>Atividade Validar Formulário:</h1>
+        <form name="form" action="autorizado form.html" method="get" >
+
+            <h3>Nome: <input type="nome" name="name" placeholder="digite seu nome"> </h3> 
+           
+            <h3>Senha: <input type="password" name="password" placeholder="insira uma senha"> </h3> 
+            <h3>Confirme a Senha: <input type="password" name="confirm_password" placeholder="confirme a Senha"></h3> 
+
+            <h3>Selecione Genero:</h3>
+            <h4>Femenino <input type="radio" id="genre" name="genre" value="Femenino"> </h4>
+            <h4>Masculino <input type="radio" id="genre" name="genre" value="Masculino"></h4>
+             
+            <h3>E-mail: <input type="email" name="email" placeholder="example@.com"></h3>
+             
+            <h3>Numero Telefone: <input type="text" name="numberPhone" placeholder="(99) 9999-9999"> </h3> 
+            
+            <h3>Endereço: <input type="textarea" name="address" placeholder="street"></h3> 
+             
+            <h3>Selecione Tipo Endereço:</h3> 
+            <h4>Casa <input type="radio" name="house" ></h4>
+            <h4>Apartamento <input type="radio" name="ap" ></h4>
+             
+
+            <h3>Selecione meio/s de contato: </h3>
+            <h4>E-mail: <input type="checkbox" id="email" name="email" value="email"></h4>
+            <h4>Telefone: <input type="checkbox" id="phone" name="numberPhone" value="numberPhone"></h4>
+            
+            <input type="button" id="validateForm" onclick="return validar()" value="Autenticar">
+        </form>
+    </div>
+    </body>
+
+</html>

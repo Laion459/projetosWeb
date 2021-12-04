@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 
+   <title>Atividades M2</title>
+
+   <link rel="stylesheet" type="text/css" href="css atividade m2.css" media="screen" />
+
+   Primeira nota <input id="nota1" type="number"> <br />
+   Segunda  nota <input id="nota2" type="number"> <br />
+   Terceira nota <input id="nota3" type="number"> <br />
+
+   <button onclick="mediaAlunos()">Calcular Média</button>
+
+   <script type="text/javascript">
+
+    //var validateNumber;
+    // Função que valida inteiros positivos <= 10; caso esteja fora printa mensagem de erro
+    function validaInteirosPositivos(validateNumber){
+            //validateNumber = 0;
+
+        if(validateNumber < 1){
+            alert("Valor invalido, Numero digitado menor que 1, Média dos valores digitados: "+ validateNumber);
+            //return 1;
+            //abort();
+
+        }else if(validateNumber > 10){
+            alert("Valor invalido! Numero digitado maior que 10, Média dos valores digitados: "+ validateNumber);
+            //return 1;
+            //abort();
+        }
+        //return 0;
+    }
+
+    // Função que calcula a média de 3 notas
+    function mediaAlunos(){
+        // Cria as variaveis notas com o valor do input
+        let nota1 = parseFloat(document.getElementById("nota1").value);
+        let nota2 = parseFloat(document.getElementById("nota2").value);
+        let nota3 = parseFloat(document.getElementById("nota3").value);
+
+        // calcula a média e salva o valor na variavel 'media'
+        let media = (nota1 + nota2 + nota3)/3 ;
+        
+        // Valida a mensagem e sua respectiva média
+        if(validaInteirosPositivos(media) == 10){
+            alert("Média: "+ media + " Parabéns Você passou com sucesso!");
+            //return 1;
+        }else if(validaInteirosPositivos(media) >= 7){
+            alert("Média: "+ media + " Parabéns Você passou!");
+            //return 1;
+        }else{
+            alert("Media: "+ media + " Treine mais Você reprovou!");
+            console.log("Desconto de 10% liberado");
+            //return 1;
+        }
+        return 0;
+    }
+ </script>
+
+ </head>
+ <body>
+     <br>
+     <br>
+     <br>
+     <br>
+
+     Wow!
+ </body>
+</html>

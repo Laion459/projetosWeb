@@ -1,0 +1,30 @@
+h1{
+    color: rgb(127, 21, 197);
+    font-size: 10em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2, li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5em;
+    color: rgb(247, 16, 178);
+}
+
+body{
+    background-color: rgb(47, 45, 45);
+}
+
+
+
+body{
+    background-image: url("paraquedas.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.fotoPerfil{
+    border-radius: 100%;
+    max-width: 400px;
+    border: 1px solid black ;
+}

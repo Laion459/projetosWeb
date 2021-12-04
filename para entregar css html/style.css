@@ -1,0 +1,78 @@
+
+/* Table style customization*/
+table{
+    border-style: dashed;                      /* ***********Só pra teste************ */
+    border-color: chocolate;
+    font-size: 1em;
+    font-style: 25px blue static;           /* ***********Só pra teste************ */
+}
+
+/* Table style customization   ***célula */
+td{
+    padding: 20px;
+    font-size: 1em;
+    border-bottom: 3px blue;
+    word-wrap: breack-word; /* word-wrap: normal|break-word */
+}
+
+/* Table style "th" customization   ***cabeçalho  */
+th{
+    background-color: chartreuse;
+    border-color: salmon solid 3px;           /*tem que afetar apenas borda inferior (aqui afeta todos os lados) ++"clean code"++ */
+}
+
+/* Table style "tr" customization   ***Linha */
+tr{
+    font-size: 50px;
+    color: cyan;
+}
+
+ /* table style "tfoot" customization*   ***Rodapé */
+tfoot{
+    border-right: slateblue solid 1px;
+}
+/*  TABELAS
+    a. Padding das células (td) de 20px                                                             OK?
+    b. Cabeçalho (th) com cor de fundo (a escolher)                                                 OK?
+    c. Cabeçalho com borda inferior solida com 3px e cor a definir.                                 OK?
+    d. Pseudo class das linhas (tr) alterando a cor de fundo para a linha selecionada.
+    e. Texto com tamanho em 1em.                                                                    OK?
+    f. As células devem ter o alinhamento vertical para parte superior (top)
+    g. As células devem forçar a quebra palavras (wordwrap) automaticamente.                        OK?
+    h. As células devem ter seu conteúdo com alinhamento horizontal justificado (justify)           OK?
+    i. A última linha da tabela deve ter a borda inferior solida com 1px de espessura e
+    cor a definir. 
+*/
+
+/* Input style customization */
+input{
+    background-color: fuchsia;
+    font-size: 1.5em ;
+    color: rgb(219, 17, 226);
+    padding: 25px;
+    border-color: 1px solid rgb(36, 1, 1);
+    /*border-width: 1px;*/
+    display: block;
+    margin: 10px
+}
+
+/* Input style "hover" coustomization.  muda cor campo passando mouse */
+input:hover{
+    background-color: crimson;
+}
+
+/* Input style customization/ VS type=button*/
+input[type="button"]{
+    background-color: rgb(209, 164, 16);
+    color: rgb(177, 27, 27);
+    text-justify: distribute-all-lines 10px color rgb(21, 255, 0);
+}
+
+/* INPUTS
+a. Fonte em tamanho 1.5em.                                                OK
+b. Campo que estiver sendo preenchido deve ter cor de fundo em destaque.     Hover?
+      <input type="text" name="texto" style="background-color: #ac1111; border: 1px solid #000000;" />      ***Aplicação: in-line!!
+c. Padding 5px.                                                              OK
+d. Devem ter borda sólida com 1px de espessura, com cor a escura.            OK
+e. Os labels devem estar em negrito.                                         Nomes exemplo: BUTTON??
+ */

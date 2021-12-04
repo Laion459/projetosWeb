@@ -1,0 +1,30 @@
+input{
+    background-color: rgb(255, 202, 252);
+}
+text{
+    background-color: cornflowerblue;
+}
+
+ /* Input style "hover" coustomization.  muda cor campo passando mouse */
+ input:hover{
+    background-color: rgb(43, 220, 20);
+}
+
+ /* Button style "hover" coustomization.  muda cor campo passando mouse */
+ button:hover{
+    background-color: rgb(40, 20, 220);
+}
+
+/* Input style customization/ VS type=button*/
+input[type="button"]{
+    background-color: rgb(209, 164, 16);
+    color: rgb(72, 245, 95);
+    text-justify: distribute-all-lines 10px color rgb(21, 255, 0);
+}
+
+button{
+    background-color: rgb(226, 31, 151);
+    color: rgb(6, 1, 14);
+    
+    
+}
